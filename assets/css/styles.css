@@ -148,19 +148,22 @@ a {
 }
 
 .client .row-logo {
-  margin-top: 97px;
+  margin-top: 70px;
   display: flex;
   align-items: center;
 }
-.client .row-logo img {
-  padding: 25px 41px;
+.client .row-logo a {
+  display: flex;
+  align-items: center;
+  height:  90px;
+  padding: 0px 41px;
   transition: 0.5;
+  border-radius: 12px;
 }
-.client .row-logo img:hover {
+.client .row-logo a:hover {
   transform: scale(1.1);
   /* padding: 25px 41px; */
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-  border-radius: 12px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
 }
 /* =============== Guide ===============*/
 .guides {
