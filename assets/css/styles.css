@@ -45,6 +45,11 @@ a {
 .row {
   display: flex;
 }
+
+/*==================== Sticky-Nav ====================== */
+.sticky-nav {
+  position: sticky;
+}
 /*==================== Header ====================== */
 .header-f1 {
   position: relative;
@@ -84,7 +89,9 @@ a {
 }
 /* ================= Hero ================ */
 .hero {
-  margin-top: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .hero .info {
@@ -155,7 +162,7 @@ a {
 .client .row-logo a {
   display: flex;
   align-items: center;
-  height:  90px;
+  height: 90px;
   padding: 0px 41px;
   transition: 0.5;
   border-radius: 12px;
